@@ -1,0 +1,35 @@
+# Exclude dataset folders
+dataset/
+raw_dataset/
+processed_dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+
+# Models and weights
+*.h5
+*.pb
+*.onnx
+*.pth
+*.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Face database
+face_db.json
